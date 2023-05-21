@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/style.css">
     <link rel="shortcut icon" href="./pages/icons/wix.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script defer src="./script.js"></script>
+
     <title>Business Consulting Company</title>
 </head>
 <body>
@@ -28,7 +30,8 @@
         </div>
       </div>
     </div>
-    <div class="main-context" id="section1">
+    <div class="main-context" id="section1" data-aos="fade-up"
+    data-aos-anchor-placement="top-center">
         <div class="main-context_article" >
             <h1>The Power
                 <br>
@@ -41,7 +44,7 @@
         </button>
         </div>
     </div>
-    <div class="services-context" id="section2">
+    <div class="services-context" id="section2" data-aos="zoom-in-down">
         <h3>Services</h3>
         <h1>Taking Your Business to 
             <br>
@@ -53,7 +56,8 @@
             <img src="./pages/images/Screenshot_45.png" alt="">
         </div>
     </div>
-    <div class="about-context">
+    <div class="about-context"  data-aos="fade-up"
+    data-aos-anchor-placement="top-center">
         <h1>We're Good with Numbers</h1>
         <div class="about-context__numbers">
             <p>15</p>
@@ -71,7 +75,8 @@
             <article>Intl. Partners</article>
         </div>
     </div>
-    <div class="main-about-context" id="section3">
+    <div class="main-about-context " id="section3" data-aos="fade-up"
+    data-aos-anchor-placement="top-center">
         <div class="main-about-context__articles">
             <h3>About</h3>
             <h1>Our Experts Are 
@@ -116,12 +121,12 @@
                 <br>
                 edit me and add text”
             </p>
-            <h3>Josh Philips</h3>
+            <h3 id="myh3">Josh Philips</h3>
             <article>Company Name</article>
             <div class="testimonials-context__circles">
-                <div id="circle"></div>
-                <div id="circle"></div>
-                <div id="circle"></div>
+                <div id="circle1"></div>
+                <div id="circle2"></div>
+                <div id="circle3"></div>
             </div>
         </div>
 
@@ -184,4 +189,8 @@
         
 </div>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
